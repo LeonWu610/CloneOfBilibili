@@ -1,0 +1,91 @@
+main .top{
+    display: flex;
+    margin: 30px 0 20px 20px;
+}
+ 
+main .top .left{
+    position: relative;
+    width: 50%;
+    margin-right: 30px;
+}
+main .top .left img{
+    border-radius: 5px;
+    width: 100%;
+}
+main .top .left .dot-box{
+    position: absolute;
+    display: flex;
+    bottom: 13px;
+    left: 10px;
+}
+main .top .left .dot-1, .dot-2, .dot-3{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+
+
+main .top .right{
+   width: 45%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+}
+main .top .right img{
+    width: 100%;
+    border-radius: 5px;
+}
+main .top .right .title{
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 40px;
+}
+main .top .right svg{
+    vertical-align: middle;
+    height: 20px;
+    color: gray;
+    margin-right: -5px;
+    margin-left: -3px;
+}
+main .top .right .info{
+    vertical-align: middle;
+   color: gray;
+   font-size: 12px;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+main .top .right .video{
+    position: relative;
+}
+main .top .right .video svg{
+    color: white;
+    height: 15px;
+    vertical-align: middle;
+}
+main .top .right .video-info{
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 5px;
+    font-size: 12px;
+}
+main .top .right .video-info-details{
+    vertical-align: middle;
+}
+main .top .right .video .time{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    color: white;
+    font-size: 12px;
+}
